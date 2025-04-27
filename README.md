@@ -30,3 +30,34 @@ sms_spam_filter/
 1. Clone the repository:
    ```bash
 
+pip install -r requirements.txt
+
+Usage
+
+Prepare your dataset in the data/ directory.
+Run the data preprocessing script:
+
+
+python src/data_preprocessing.py
+   Train the model:
+
+
+python src/model.py
+   Make predictions:
+   
+   python src/predict.py
+
+Considerations
+
+This approach may take longer than some modern AI filtering tools, but it provides a comprehensive understanding of the PyTorch framework and SMS classification.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+
+PyTorch
+pandas
+scikit-learn
+   
